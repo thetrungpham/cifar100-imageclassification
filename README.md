@@ -35,6 +35,8 @@ python main.py
 ### 4. Evaluate on test set
 python -c "from evaluate import evaluate; from dataset import cifar100_test; import torch; from model import Net; net=torch.load('best_model.pth'); print('Test acc:', evaluate(net, cifar100_test))"
 
+---
+
 ## Results
 - Test Accuracy: 0.7017%
 
