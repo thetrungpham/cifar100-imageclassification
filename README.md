@@ -23,7 +23,7 @@ The model leverages skip connections to ease the training of deeper networks and
 ```bash
 git clone https://github.com/thetrungpham/cifar100-classification.git
 cd cifar100-classification
-
+```
 ### 2.Install dependencies
 pip install -r requirements.txt
 
