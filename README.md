@@ -7,14 +7,14 @@ The model leverages skip connections to ease the training of deeper networks and
 
 ## Project Structure
 
-├── dataset.py # Code for loading CIFAR-100 dataset
-├── model.py # CNN architecture with Residual Blocks
-├── train.py # Training loop
-├── evaluate.py # Evaluation functions
-├── main.py # Entry point: train 
-├── test.py # Entry point: evaluate
-├── requirements.txt # Dependencies
-└── README.md # Project description
+├── dataset.py          # Code for loading CIFAR-100 dataset  
+├── model.py            # CNN architecture with Residual Blocks  
+├── train.py            # Training loop  
+├── evaluate.py         # Evaluation functions  
+├── main.py             # Entry point: train  
+├── test.py             # Entry point: evaluate  
+├── requirements.txt    # Dependencies  
+└── README.md           # Project description  
 
 ---
 
