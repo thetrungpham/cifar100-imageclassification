@@ -1,15 +1,18 @@
+# CIFAR-100 Image Classification with CNN + Residual Blocks
+
 This project implements a **Convolutional Neural Network (CNN)** enhanced with **Residual Blocks (ResNet-style)** for image classification on the **CIFAR-100** dataset using PyTorch.  
 The model leverages skip connections to ease the training of deeper networks and improve accuracy.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ├── dataset.py # Code for loading CIFAR-100 dataset
 ├── model.py # CNN architecture with Residual Blocks
 ├── train.py # Training loop
 ├── evaluate.py # Evaluation functions
-├── main.py # Entry point: train + evaluate
+├── main.py # Entry point: train 
+├── test.py # Entry point: evaluate
 ├── requirements.txt # Dependencies
 └── README.md # Project description
 
